@@ -1,0 +1,115 @@
+body {
+    max-width: 1440 px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e5e5;
+}
+
+h1{
+    
+    font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+
+color: #FFFFFF;
+font-family: 'Merriweather', serif;
+
+text-shadow: 2px 0 2px #000000, 
+0 2px 2px #000000, 
+-2px 0 2px #000000, 
+0 -2px 2px #000000;
+}
+
+h2{
+    color: #F2785C;
+    text-align: center;
+    font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+letter-spacing: 0.8px;
+font-family: 'Work Sans', sans-serif;
+}
+
+main {
+   width: 1440px;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.head{
+height: 765px;
+width: 1440px;
+background-image: url('./assets/preview_background.jpg');
+background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* STEPS */
+
+.block_steps{
+    max-width: 1177px;
+    margin: auto auto 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #0D606F;
+}
+
+.img_step{
+    margin-bottom: 16px;
+}
+
+
+
+
+
+/* DESTINATIONS */
+
+
+.slider{
+    overflow: hidden;
+}
+
+.slider_photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.slider_img{
+    margin-right: 60px;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.img_buttons{
+    margin: 5px;
+}
+
