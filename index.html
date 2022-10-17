@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
+    <link rel="icon" href="./assets/favicon.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&family=Open+Sans:wght@500&family=Work+Sans:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Inter:wght@400;700&family=Merriweather:wght@700&family=Open+Sans:wght@500&family=Work+Sans:wght@500;600&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,31 +36,49 @@
 <main>
 
 <div class="head">
-        <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                </ul>
-            </nav>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header_container">
+                <a href="" class="header_logo">
+                    <img src="./assets/VectorLogo.png" alt="logo">
+                    Travel Portal
+                </a>
+                <nav class="header_menu menu">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a href="#anchor1" class="menu_link">How It Works</a></li>
+                        <li class="menu_item"><a href="#anchor2" class="menu_link">Plan Your Trip</a></li>
+                        <li class="menu_item"><a href="#anchor3" class="menu_link">Destinations</a></li>
+                        <li class="menu_item"><a href="#anchor4" class="menu_link">Travel Stories</a></li>
+                    </ul>
 
+                </nav>
+                
+                <div class="header_button">
+                    <a href="" class="button button_blue">Login</a>
+                </div>
+            </div>
         </header>
-    
+    <section class="preview" id="anchor1">
+            <!-- Поскольку содержимое тега <section> имеет смысл только когда сгруппировано вместе, оно должно иметь «тему». 
+                «Тема» должна быть определена путем включения заголовка в содержимое, часто сразу после открывающего тега -->
+                <h1>Explore the beauty of the World</h1>
+                <p>Receive personalized recommendations for countries, hotels, activities and more</p>
 
-
-<section class="preview">
-    <!-- Поскольку содержимое тега <section> имеет смысл только когда сгруппировано вместе, оно должно иметь «тему». «Тема» должна быть определена путем включения заголовка в содержимое, часто сразу после открывающего тега -->
-        <h1>Explore the beauty of the World</h1>
-
-
-</section>
+                <div class="planning_block">
+                    <form action="" method="get" class="plan_block">
+                        <input name="s" placeholder="What would you like to do?" type="search">
+                        <button type="submit">Start Planning</button>
+                      </form>
+                </div>
+    </section>
+    </div>
 
 </div>
 
 
 
-<section class="steps">
+
+<section class="steps" id="anchor2">
     <h2>3 STEPS TO THE PERFECT TRIP</h2>
     <div class="block_steps">
         <div class="step1">
@@ -77,7 +100,7 @@
 
 
 
-<section class="destinations">
+<section class="destinations" id="anchor3">
     <h2>POPULAR DESTINATIONS</h2>
     <div class="slider">
         <div class="slider_photo">
@@ -123,12 +146,12 @@
 
 
 
-<section class="stories">
+<section class="stories" id="anchor4">
     <h2>TRAVEL STORIES</h2>
 
     <div class="stories_block">
         <div class="white_background">
-            <div class="story_block">
+            <div class="story_block" >
                 <img src="./assets/stories/Rectangle 15.jpg" alt="Rectangle15" height="250px">
                 <div class="story_text">
                     <h3>10 Photos of Attractive Thailand</h3>
@@ -202,13 +225,13 @@
 
     <div class="footer">
         <footer>
-            <h3>All Rights Reserved © Travel Portal</h3>
-            <ul>
-                <li>
-                    <a href=""></a>
-                </li>
-            </ul>
+           <a href="https://rs.school/" class="footer_text"><h3>All Rights Reserved © Travel Portal</h3></a> 
         </footer>
+        <ul class="menu_list_footer">
+            <li class="menu_item_footer"><a href="https://github.com/Batyazh" class="menu_link_footer"><img src="./assets/footer/akar-icons_instagram-fill.png" alt="instagram"></a></li>
+            <li class="menu_item_footer"><a href="https://github.com/Batyazh" class="menu_link_footer"><img src="./assets/footer/akar-icons_video.png" alt="video"></a></li>
+            <li class="menu_item_footer"><a href="https://github.com/Batyazh" class="menu_link_footer"><img src="./assets/footer/akar-icons_twitter-fill.png" alt="twitter"></a></li>
+        </ul>
     </div>
         
 
